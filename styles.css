@@ -68,6 +68,7 @@ main * {
 main a {
 	text-decoration: none;
 	color: royalblue;
+	font-weight: bold;
 	}
 main a:hover, main a:active {
 	text-decoration: underline;
@@ -76,6 +77,23 @@ main a:hover, main a:active {
 	display: flex;
 	justify-content: space-around;
 	}
+.cta {
+	display: flex;
+	justify-content: space-around;
+}
+.cta-link {
+	margin: 5vmin 0;
+	background-color: royalblue;
+	color: white;
+	font-size: 5vmin;
+	font-weight: bold;
+	border-radius: 9px;
+	box-shadow: 0 2px 4px -2px black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
 section {
 	margin: 5vmin 0;
 	border: 1px solid goldenrod;
