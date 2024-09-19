@@ -30,6 +30,12 @@ p {
 	font-weight: normal;
 	text-align: justify;
 	}
+li {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	text-align: justify;
+	/*list-style-position: inside;*/
+	}
 nav {
 	background-color: goldenrod;
 	height: 9vmin;
@@ -76,6 +82,9 @@ main a:hover, main a:active {
 .container-row {
 	display: flex;
 	justify-content: space-around;
+	}
+.related li {
+	color: goldenrod;
 	}
 .cta {
 	display: flex;
